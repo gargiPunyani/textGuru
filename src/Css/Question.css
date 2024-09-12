@@ -1,0 +1,35 @@
+.questions h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 750;
+    font-size: 38px;
+}
+.ques h3{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 8px;
+
+}
+/* .ques h3 :hover{
+    color: #0e83cd;
+} */
+.angleDown{
+
+    margin-left: 90%;
+    margin-top: -3rem;
+}
+.ques p{
+    font-size: 18px;
+    text-align: justify;
+    padding:8px ; 
+}
+.ques{
+    box-shadow: 5px 5px 5px 5px #d8d6d691 ;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    margin: 1rem;
+    margin-bottom: 2rem;
+  
+}

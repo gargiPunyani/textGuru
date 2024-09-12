@@ -1,0 +1,42 @@
+.secSection h2{
+    color: #0e83cd;
+    margin-top: 2rem;
+}
+.secondSection{
+    padding: 2rem;
+}
+.secSection ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.secSection img{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 70%;
+    height: auto;
+}
+.product{
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+.product h2{
+    font-size: 40px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.broadcast{
+    text-align: center;
+    width: 80%;
+    height: 10vw;
+    background-color:white ;
+    box-shadow: 5px 5px 23px 13px #d8d6d691;
+    padding: 27px;
+    margin: 5rem auto;
+}
+.broadcast .link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}

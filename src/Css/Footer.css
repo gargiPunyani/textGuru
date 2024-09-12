@@ -1,0 +1,48 @@
+.footer{
+    background-color: #dddddd59;
+}
+.footer ul li{
+    list-style: none;
+    text-align: justify;
+    margin-bottom: 7px;
+    font-size: 16px;
+    
+}
+.footer ul{
+    padding-left: 0;
+    /* margin-top: 20px; */
+}
+.footer h5{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700; 
+    padding-top: 2rem;   
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.icon{
+    padding-right: 5px;
+    font-weight: 800;
+    font-size: large;
+}
+.footer p{
+    font-size: 16px;
+}
+.footerCopyright{
+    background-color:#cccccc;
+    display: flex;
+    padding:5px ;
+    font-weight: 500;
+    justify-content: space-evenly;
+    
+}
+.copyrightImage img{
+    height: 4vw;
+    filter: grayscale(100%);
+    /* margin-right: 5%; */
+
+}
+.copyrightDetails{
+    text-align: center;
+    margin-right: 20%;
+}

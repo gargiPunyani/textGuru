@@ -1,0 +1,52 @@
+.contactIcon{
+    color: #0e83cd;
+}
+.contactbox{
+    /* box-shadow: 5px 5px 5px 5px #f0eded91; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 1rem;
+    height: 12vw;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+.contactForm input{
+    width: 25vw;
+    height: 3rem;
+    padding: 5px;
+    margin-top: 12px;
+    outline: none;
+
+}
+.contact{
+    background-color: #0e83cd;  
+    text-align: center;
+    margin-top: 1rem;
+    /* height: 30vw; */
+}
+.contact h3{
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 2rem;
+}
+.Submit{
+    color: #0e83cd;
+    background-color: #fff;
+    width: 10vw;
+    height: 3rem;
+    font-weight: 700;
+    border: #0e83cd;
+    border-radius: 10px;
+    margin-top: 2rem;
+    /* outline: none; */
+
+}
+.ContactPage{
+    margin-bottom: 2rem;
+}
+.form-error{
+    color: red;
+    font-weight: 600;
+    margin-right: 50%;
+}

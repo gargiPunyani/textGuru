@@ -1,0 +1,90 @@
+.firstSection img{
+    height: 2vw;
+    padding: 7px;
+}
+.firstSection p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.firstSection {
+    background-color:#d8d6d66e;
+    text-align: center;
+}
+.secondSection{
+    padding: 2rem;
+}
+.secSection h1{
+    color: #0e83cd;
+    margin-top: 2rem;
+}
+.offers ul {
+    font-weight: 550;
+}
+.offers ul li{
+    list-style: none;
+   margin-bottom: 10px;
+   
+}
+.secSection svg{
+    margin-right: 10px;
+}
+.btn-price{
+    width: 14vw;
+    height: 3.5rem;
+    background-color: #0e83cd;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 1rem;
+   box-shadow: 1px 1px 10px 1px #ddd;  
+   outline: none;
+   border: none;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.btn-price:hover{
+    color: #000;
+    
+}
+ .secSection2 img{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 80%;
+    height: auto;
+ }
+ .star{
+    color: rgb(227, 207, 26);
+ }
+ .review{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+ }
+ .thirdSection p{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1rem;
+ }
+ .services li{
+    /* margin-bottom: 10px; */
+    font-weight: 500; 
+    margin-top: 1rem;
+ }
+ .services p{
+    margin-top: 1rem;
+    font-size: 17px;
+    text-align: justify;
+}
+.secSectionImage img{
+    height: 32vw;
+    margin-top: 1rem;
+}
+.fourthSection img{
+    height: 23vw;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+.fifthSection img{
+        height: 30vw;
+        margin-left: 3rem;
+}

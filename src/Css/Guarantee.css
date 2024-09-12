@@ -1,0 +1,29 @@
+.guarantee img{
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+.smsGuarantee{
+    margin-top: 5rem;
+    border: 1px solid rgb(175, 171, 171);
+    margin-bottom: 1rem;
+}
+.guaranteeOwner h4{
+    margin-top: 3rem;
+}
+.guaranteeOwner img{
+    height: 4vw;
+}
+.thanks{
+    font-size: 20px;
+    font-weight: 470;
+    margin-bottom: 2rem;
+}
+.paymentMethod img{
+    height: 10vw;
+    justify-content: center;
+}
+.paymentMethod{
+    text-align: center;
+}

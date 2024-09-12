@@ -1,0 +1,88 @@
+.pricing h2{
+    text-align: center;    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 8px;
+}
+.price{
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin-left: 23%;
+    gap: 2rem
+}
+.priceImage img{
+    height: 10rem;
+    justify-content: center;
+}
+.priceContent p{
+    text-align: justify;
+    align-items: center;
+}
+.bulk-msg h3{
+    color: #75FB4C;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size:30px ;
+    margin-bottom: 2rem;
+}
+.priceService{
+    background-color: #0d1939;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+.priceBox{
+    box-shadow: 5px 5px 5px 5px #d8d6d691;
+    /* max-height: 60vw; */
+    overflow: hidden;
+    text-align: center;
+}
+.priceBox ul li{
+    list-style: none;
+    margin-bottom: 10px;    
+}
+.priceBox ul{
+   text-align: justify;
+}
+.next-heading h4{
+    text-align: center;
+    padding: 5px;
+}
+.priceDetail h4{
+    text-align: center;
+    padding: 5px;
+}
+.Paybutton button{
+    background-color: #0d1939;
+    color: #ffffff;
+    width: 15vw;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    font-size: 19px;
+    font-weight: 600;
+    justify-content: space-evenly;
+}
+.btnPrice{
+    margin-top: 1rem;
+}
+.refund p{
+    font-size: 12px;
+    margin-top: 2rem;
+
+}
+.dltBox{
+   margin: 2rem;
+}
+.docs{
+    background-color: #0d1939;
+    color: #ffffff;
+    height: 5vw;    
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 1rem;
+}

@@ -1,0 +1,74 @@
+.login {
+  background-image: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722058134/1_ykpf8q.jpg);
+  background-repeat: no-repeat;
+  height: 40vw;
+  background-size: cover;
+}
+
+.formStart {
+  background-color: #ffff;
+  width: 35vw;
+  transform: translate(3rem, 5rem);
+  text-align: justify;
+  padding: 10px;
+  height: 500px;
+}
+
+.formStart h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 650;
+  padding-top: 15px;
+}
+
+.input-label {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.formStart p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.btnCreateAccount {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #0d1939;
+  color: #ffff;
+  border: none;
+  height: 3rem;
+  width: 15vw;
+  border-radius: 20px;
+  margin-left: 8%;
+  outline: none;
+}
+
+.createAccountBtn {
+  text-align: center;
+  margin-right: 10%;
+}
+
+.loginInput {
+  margin-left: 8%;
+  margin-bottom: 1rem;
+}
+
+.loginInput input {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  width: 85%;
+  height: 3rem;
+}
+
+.loginFooter p {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  z-index: 1;
+}

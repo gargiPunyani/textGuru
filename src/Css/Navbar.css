@@ -1,0 +1,130 @@
+.navContent ul{
+    display: flex;
+}
+.navContent li{
+   text-align: center;
+    list-style: none;
+    padding: 15px;
+    font-weight: 550;
+    font-size: 1.2rem;
+    position: relatve;
+    cursor: pointer;
+    
+}
+.navContent ul li:hover{
+    /* background-color: #0e83cd; */
+    color: #0e83cd;
+}
+.hideOnMobile .Link:hover{
+    color: #0e83cd;
+}
+.navb-head{
+    position: sticky;
+    top:20;
+    /* position: fixed; */
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+   
+}
+.navhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #c4c8cbe6 0px 0px 0px, #c4c8cbe6 0px 4px 10px;
+    padding: 3px;
+    
+}
+.navhead img{
+    height: 4rem;
+    justify-content: flex-start;
+}
+.Link{
+    text-decoration: none;
+    color: #000;
+ 
+}
+.sidenavbar{
+    overflow: hidden;
+    display: block;
+}
+@media(max-width:1024px){
+    .hideOnMobile-item{
+        display: none;
+    }
+   .menu{
+        display:block;
+    }
+   
+}
+@media(max-width:400px){
+    .sidenavbar-ul{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media(max-width:800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media(max-width:600px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(229, 214, 214, 0.304);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0, 0, 0.1 );
+    /* display:none; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    /* width: 100%; */
+    list-style: none;
+}
+.sidebar Link{
+    width: 100%;
+}
+.menu{
+    display: none;
+    margin-left: auto;
+}
+@media(max-width: 1023px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-items: end;
+    }
+}
+@media(max-width: 400px)
+{
+    .sidebar{
+        /* width:100%; */
+    }
+    .menu{
+        display: flex;
+    }
+}
+
+
